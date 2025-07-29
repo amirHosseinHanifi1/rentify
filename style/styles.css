@@ -3392,6 +3392,12 @@ video {
 .justify-items-stretch {
   justify-items: stretch;
 }
+.justify-between{
+  justify-content: space-between;
+}
+.justify-around{
+  justify-content: space-around;
+}
 
 .align-content-start {
   align-content: flex-start;
@@ -3410,6 +3416,9 @@ video {
 }
 .align-content-evenly {
   align-content: space-evenly;
+}
+.items-center{
+  align-items: center;
 }
 
 .align-self-auto {
