@@ -132,21 +132,27 @@
   --space-12: 48px;
   --space-14: 56px;
   --space-16: 64px;
+  --space-18: 72px;
   --space-20: 80px;
   --space-24: 96px;
+  --space-26: 104px;
   --space-28: 112px;
   --space-32: 128px;
   --space-36: 144px;
+  --sapce-39-5: 158px;
   --space-40: 160px;
   --space-44: 176px;
   --space-48: 192px;
   --space-52: 208px;
   --space-56: 224px;
+  --space-59-5: 238px;
   --space-60: 240px;
   --space-64: 256px;
   --space-72: 288px;
   --space-80: 320px;
   --space-96: 384px;
+  --space-125-75: 503px;
+  --space-201-5: 806px;
 
   /* ===== TYPOGRAPHY SCALE ===== */
   --font-size-xs: 12px;
@@ -189,6 +195,9 @@
   --radius-xl: 12px;
   --radius-2xl: 16px;
   --radius-3xl: 24px;
+  --radius-4xl: 32px;
+  --radius-5xl: 48px;
+  --radius-6xl: 64px;
   --radius-full: 9999px;
 
   /* ===== SHADOWS ===== */
@@ -1802,6 +1811,9 @@ video {
 .ml-16 {
   margin-left: var(--space-16);
 }
+.ml-18 {
+  margin-left: var(--space-18);
+}
 .ml-20 {
   margin-left: var(--space-20);
 }
@@ -3108,6 +3120,9 @@ video {
 .top-12 {
   top: var(--space-12);
 }
+.top-59-5 {
+  top: var(--space-59-5);
+}
 .top-auto {
   top: auto;
 }
@@ -3419,6 +3434,9 @@ video {
 }
 .items-center{
   align-items: center;
+}
+.items-start{
+  align-items: start;
 }
 
 .align-self-auto {
@@ -3923,8 +3941,21 @@ video {
 .rounded-3xl {
   border-radius: var(--radius-3xl);
 }
+.rounded-4xl {
+  border-radius: var(--radius-4xl);
+}
+.rounded-5xl {
+  border-radius: var(--radius-5xl);
+}
+.rounded-6xl {
+  border-radius: var(--radius-6xl);
+}
 .rounded-full {
   border-radius: var(--radius-full);
+}
+
+.rounded-left-6xl {
+  border-radius: var(--radius-6xl) 0 0 var(--radius-6xl);
 }
 
 /* ===== SHADOW UTILITIES ===== */
@@ -4077,6 +4108,9 @@ video {
 .w-36 {
   width: var(--space-36);
 }
+.w-39-5 {
+  width: var(--sapce-39-5);
+}
 .w-40 {
   width: var(--space-40);
 }
@@ -4106,6 +4140,12 @@ video {
 }
 .w-96 {
   width: var(--space-96);
+}
+.w-125-75 {
+  width: var(--space-125-75);
+}
+.w-201-5 {
+  width: var(--space-201-5);
 }
 .w-auto {
   width: auto;
@@ -4192,6 +4232,9 @@ video {
 }
 .h-24 {
   height: var(--space-24);
+}
+.h-26 {
+  height: var(--space-26);
 }
 .h-28 {
   height: var(--space-28);

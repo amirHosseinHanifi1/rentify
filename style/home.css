@@ -6,4 +6,11 @@
 .nav-header{
     max-width: 1440px;
     padding: 0 80px;
+    height: 676px;
+    padding-top: 20px;
+}
+
+.top-hero-section-bg{
+    width: 1440px;
+    height: 676px;
 }
