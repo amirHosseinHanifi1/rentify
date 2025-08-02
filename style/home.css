@@ -1,16 +1,70 @@
-.rentify-logo{
-    max-width: 132;
-    max-height: 52;
+.rentify-logo {
+    max-width: 132px;
+    max-height: 52px;
 }
 
-.nav-header{
+.nav-header {
     max-width: 1440px;
     padding: 0 80px;
-    height: 676px;
     padding-top: 20px;
 }
 
-.top-hero-section-bg{
+.top-hero-section-bg {
     width: 1440px;
     height: 676px;
+}
+
+.hero-section-vila {
+    width: calc(100% - 16px);
+}
+
+.hero-section-vila>button {
+    border-radius: 9999px !important;
+    padding: 0px !important;
+}
+
+.hero-section-apartment {
+    width: calc(100% - 16px);
+}
+
+.hero-section-apartment>button {
+    border-radius: 9999px !important;
+    padding: 0px !important;
+}
+
+.hero-section-home-vila {
+    width: calc(100% - 16px);
+}
+
+.hero-section-home-vila>button {
+    border-radius: 9999px !important;
+    padding: 0px !important;
+}
+
+.vila-icon {
+    background-color: var(--color-warning-600) !important;
+    color: white;
+    border-radius: var(--radius-xl);
+    padding: var(--space-1) var(--space-2) var(--space-1) var(--space-2);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-base);
+    line-height: var(--space-6);
+}
+.apartment-icon {
+    background-color: var(--color-success-600) !important;
+    color: white;
+    border-radius: var(--radius-xl);
+    padding: var(--space-1) var(--space-2) var(--space-1) var(--space-2);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-base);
+    line-height: var(--space-6);
+}
+.vila-house-icon {
+    background-color: var(--color-primary-900) !important;
+    color: white;
+    border-radius: var(--radius-xl);
+    padding: var(--space-1) var(--space-2) var(--space-1) var(--space-2);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-base);
+    line-height: var(--space-6);
 }
