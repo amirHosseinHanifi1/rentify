@@ -125,6 +125,7 @@
   --space-3-5: 14px;
   --space-4: 16px;
   --space-4-625: 18.5px;
+  --space-4-75: 19px;
   --space-5: 20px;
   --space-6: 24px;
   --space-7: 28px;
@@ -2543,6 +2544,9 @@ video {
 .pb-4 {
   padding-bottom: var(--space-4);
 }
+.pb-4-75 {
+  padding-bottom: var(--space-4-75);
+}
 .pb-5 {
   padding-bottom: var(--space-5);
 }
@@ -3497,8 +3501,14 @@ video {
 .justify-evenly {
   justify-content: space-evenly;
 }
-.justify-center{
+.justify-center {
   justify-content: center;
+}
+.justify-right {
+  justify-content: right;
+}
+.justify-start {
+  justify-content: start;
 }
 
 .align-content-start {
@@ -3521,6 +3531,9 @@ video {
 }
 .items-center{
   align-items: center;
+}
+.items-right {
+  align-items: right;
 }
 .items-start{
   align-items: start;
